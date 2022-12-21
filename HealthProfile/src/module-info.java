@@ -5,5 +5,5 @@
  * @author rafael
  *
  */
-module Welcome {
+module HealthProfile {
 }

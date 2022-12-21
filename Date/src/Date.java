@@ -6,15 +6,15 @@ public class Date {
 
 	public Date(int dia, int mes, int ano) {
 		
-		if (dia < 31 && dia > 0) {
+		if (dia <= 31 && dia >= 0) {
 			this.dia = dia;
 		}
 		
-		if (mes < 12 && mes > 0) {
+		if (mes <= 12 && mes >= 0) {
 			this.mes = mes;
 		}
 		
-		if (ano <= 2022 && ano > 0) {
+		if (ano <= 2022 && ano >= 0) {
 			this.ano = ano;
 		}
 		
