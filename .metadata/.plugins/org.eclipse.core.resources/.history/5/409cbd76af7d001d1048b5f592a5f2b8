@@ -1,0 +1,46 @@
+import javax.swing.JOptionPane;
+
+// Exercicio do livro How to program Java
+// Exercicio 2.35
+
+public class Exec2_35 {
+	
+	public static void main( String args[]) {
+		String firstNumber, secondNumber, thirdNumber, fourthNumber, fifithNumber;
+		int number1, number2, number3, number4, number5;
+		int positiveNumbers, zeroNumbers, negativeNumbers;
+		
+		// números digitados pelo usuário
+		firstNumber = JOptionPane.showInputDialog("Enter first number");
+		secondNumber = JOptionPane.showInputDialog("Enter second number");
+		thirdNumber = JOptionPane.showInputDialog("Enter third number");
+		fourthNumber = JOptionPane.showInputDialog("Enter fourthNumber");
+		fifithNumber = JOptionPane.showInputDialog("Enter fifith number");
+		
+		// convertendo números String em int
+		number1 = Integer.parseInt(firstNumber);
+		number2 = Integer.parseInt(secondNumber);
+		number3 = Integer.parseInt(thirdNumber);
+		number4 = Integer.parseInt(fourthNumber);
+		number5 = Integer.parseInt(fifithNumber);
+		
+		// condicionais de números positivos
+		positiveNumbers = 0;
+		if (number1 > 0) {
+			positiveNumbers += 1;
+		}
+		if (number2 > 0) {
+			positiveNumbers += 1;
+		}
+		if (number3 > 0) {
+			positiveNumbers += 1;
+		}
+		if (number4 > 0) {
+			positiveNumbers += 1;
+		}
+		if (number5 > 0) {
+			positiveNumbers += 1;
+		}
+		
+	}
+}

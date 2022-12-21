@@ -1,0 +1,10 @@
+// Exercicio do livro How to program Java
+// Exercicio 2.17
+
+public class Exec2_17 {
+	
+	public static void main( String args[] ) {
+		
+	} // fim do método main
+	
+} // fim da class Exec2_17

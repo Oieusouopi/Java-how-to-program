@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;module-info.java&apos; to &apos;Exec2_15.java&apos;&#x0A;- Original project: &apos;Exercise_Cap_2&apos;&#x0A;- Original element: &apos;module-info.java&apos;&#x0A;- Renamed element: &apos;Exec2_15.java&apos;" description="Rename compilation unit &apos;module-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{module-info.java" name="Exec2_15.java" references="false" stamp="1671035330974" version="1.0"/>
+</session>

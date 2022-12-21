@@ -1,0 +1,9 @@
+public class EmployeeTest {
+	public static void main( String args[] ) {
+		
+		// instanciado classes
+		Employee employee1 = new Employee("Rafael", "Santos", 1200.00);
+		Employee employee2 = new Employee("Gabriel", "Santos", 2200.00);
+	} // fim do método main
+	
+} // fim da classe EmployeeTest

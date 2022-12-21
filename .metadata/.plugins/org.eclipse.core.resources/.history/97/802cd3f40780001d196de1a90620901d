@@ -1,0 +1,26 @@
+// Figura 3.1: Account.java
+// Classe Account que contém uma variável de instância name
+// e métodos para configurar e obter seu valor.
+
+public class Account  {
+	private String name; // váriavel da instãncia
+	
+	public Account(String name) {
+		this.name = name;
+	}
+	
+	// método para definir o nome no objeto
+	public void setName(String name) {
+		
+		this.name = name; // armazena o nome
+
+	} // fim do método setName
+
+	// método para recuperar o nome do objeto
+	public String getName() {
+		
+		return name; // retorna o valor do nome para o chamador
+
+	} // fim do método getName
+	
+} // fim da classe Account

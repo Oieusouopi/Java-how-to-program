@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+// Exercicio do livro How to program Java
+// Exercicio 2.31
+
+public class Exec2_32 {
+	
+	public static void main( String args[]) {
+		String digits;
+		String finalDigits[] = new String[8];
+		
+		digits = JOptionPane.showInputDialog("Enter five digits");
+		
+		finalDigits = digits.split(" ");
+		
+		System.out.print(finalDigits);
+		
+	} // fim do método main
+
+} // fim da classe Exec2_32

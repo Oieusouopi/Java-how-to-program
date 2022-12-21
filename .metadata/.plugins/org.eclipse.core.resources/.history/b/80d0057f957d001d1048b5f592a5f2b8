@@ -1,0 +1,32 @@
+import javax.swing.JOptionPane;
+
+// Exercicio do livro How to program Java
+// Exercicio 2.31
+
+public class Exec2_32 {
+	
+	public static void main( String args[]) {
+		String digits;
+		
+		digits = JOptionPane.showInputDialog("Enter five digits");
+		
+		if (digits.length() < 5) {
+			System.out.print("digits less than 5");
+			
+			System.exit(0);
+		}
+
+		if (digits.length() > 5) {
+			System.out.print("digits bigger than 5");
+			
+			 System.exit(0);
+		}
+
+		digits = digits.charAt(0) + " " + digits.charAt(1) + " " +
+				 digits.charAt(2) + " " + digits.charAt(3) + " " +
+				 digits.charAt(4);
+		
+		System.out.print(digits);
+	} // fim do método main
+
+} // fim da classe Exec2_32

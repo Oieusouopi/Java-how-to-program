@@ -1,0 +1,17 @@
+import java.awt.*;
+import java.applet.*;
+
+@SuppressWarnings("removal")
+public class HelloWorld extends Applet
+{
+private static final long serialVersionUID = 1L;
+public void init()
+{
+		setForeground(Color.white);
+		setBackground(Color.blue);
+}
+public void paint(Graphics g)
+{
+	g.drawString("Welcome To Java Applet",40,50);
+}
+}

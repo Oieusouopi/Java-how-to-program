@@ -1,0 +1,10 @@
+// Exercicio do livro How to program Java
+// Exercicio 2.33
+
+public class Exec2_33 {
+	
+	public static void main( String args[] ) {
+		System.out.print("número\tquadrado\tcubo");
+
+	}
+}

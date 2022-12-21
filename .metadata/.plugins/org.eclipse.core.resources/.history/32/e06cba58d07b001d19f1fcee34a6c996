@@ -1,0 +1,29 @@
+// Exercicio do livro How to program Java
+// Exercicio 2.16
+
+import javax.swing.JOptionPane;
+
+public class Exec2_16 {
+	
+	public static void main( String args[]) {
+		String firstNumber, secondNumber; // declarando as duas variáveis do tipo String
+		int number1, number2; // declarando as duas váraveis do tipo int
+		
+		// Primeiro número que o usuário irá digitar
+		firstNumber = JOptionPane.showInputDialog("Enter first Number");
+		
+		// Segundo número que o usuário irá digitar
+		secondNumber = JOptionPane.showInputDialog("Enter second Numnber");
+		
+		// converte os números de String para int
+		number1 = Integer.parseInt(firstNumber);
+		number2 = Integer.parseInt(secondNumber);
+		
+		JOptionPane.showMessageDialog(null, "A soma desses números é igual: " + number1 + number2 + "\n" +
+			"O produto desses números é igual: " + number1 * number2 + "\n" +
+			"A divisão desses números é igual: " + number1 / number2);
+		
+		System.exit( 0 );
+	}
+
+}

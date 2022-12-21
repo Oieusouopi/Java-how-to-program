@@ -1,0 +1,10 @@
+// Exercicio do livro How to program Java
+// Exercicio 2.34
+
+public class Exec2_34 {
+	
+	public static void main( String args[]) {
+		
+	} // fim do método main
+
+} // fim da classe Exec2_34

@@ -1,0 +1,63 @@
+// Exercicio do livro How to program Java
+// Exercicio 2.29
+
+import javax.swing.JOptionPane;
+
+public class Exec2_31 {
+	public static void main( String args[] ) {
+		String firstChar;
+		
+		firstChar = JOptionPane.showInputDialog("Enter char");
+		
+		if (firstChar.equals("A")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'A');
+		}
+		if (firstChar.equals("B")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'B');
+		}
+		if (firstChar.equals("B")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'C');
+		}
+		if (firstChar.equals("a")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'a');
+		}
+		
+		if (firstChar.equals("b")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'b');
+		}
+		
+		if (firstChar.equals("c")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) 'c');
+		}
+		
+		if (firstChar.equals("0")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '0');
+		}
+		
+		if (firstChar.equals("1")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '1');
+		}
+		
+		if (firstChar.equals("2")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '2');
+		}
+		
+		if (firstChar.equals("$")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '$');
+		}
+		
+		if (firstChar.equals("*")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '*');
+		}
+		
+		if (firstChar.equals("+")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '+');
+		}
+		
+		if (firstChar.equals("/")) {
+			System.out.println("The character " + firstChar + " has the value " + ( int ) '/');
+		}
+
+	} // fim do método main
+	
+} // fim da classe Exec2_31
