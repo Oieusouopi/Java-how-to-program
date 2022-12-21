@@ -53,9 +53,4 @@ public class Account  {
 
 	} // fim do método getName
 	
-	public static void displayAccount(Account accountToDisplay) {
-		System.out.printf("%s balance: $ %.2f %n",
-				accountToDisplay.getName(), accountToDisplay.getBalance());
-	}
-	
 } // fim da classe Account

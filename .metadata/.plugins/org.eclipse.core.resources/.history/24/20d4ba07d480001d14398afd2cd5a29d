@@ -10,8 +10,8 @@ public class AccountTest {
 		Account account2 = new Account("John Blue", -7.53);
 
 		// exibe saldo inicial de cada objeto
-		Account.displayAccount(account1);
-		Account.displayAccount(account2);
+		System.out.printf("%s balance: $ %.2f %n",account1.getName(), account1.getBalance() );
+		System.out.printf("%s balance: $ %.2f %n",account2.getName(), account2.getBalance() );
 
 		// cria um Scanner para obter entrada a partir da janela de comando
 		Scanner input = new Scanner(System.in);
@@ -21,8 +21,10 @@ public class AccountTest {
 		account1.deposit(depositAmount); // adiciona o saldo de account1
 
 		// exibe os saldos
-		Account.displayAccount(account1);
-		Account.displayAccount(account2);
+		System.out.printf("%s balance: $ %.2f %n",
+		account1.getName(), account1.getBalance() );
+		System.out.printf("%s balance: $ %.2f %n%n",
+		account2.getName(), account2.getBalance() );
 		System.out.print("Enter deposit amount for account2: "); // prompt
 		depositAmount = input.nextDouble(); // obtém a entrada do usuário
 		System.out.printf("%nadding %.2f to account2 balance%n%n",
@@ -30,8 +32,8 @@ public class AccountTest {
 		account2.deposit(depositAmount); // adiciona ao saldo de account2
 		
 		// exibe os saldos
-		Account.displayAccount(account1);
-		Account.displayAccount(account2);
+		System.out.printf("%s balance: $ %.2f %n",account1.getName(), account1.getBalance() );
+		System.out.printf("%s balance: $ %.2f %n%n",account2.getName(), account2.getBalance() );
 		
 		// utilizando o método para quando houver pagamento de algo com a conta
 		System.out.print("Enter pay amount for account1: ");
@@ -45,8 +47,8 @@ public class AccountTest {
 		input.close();
 		
 		// exibe os saldos
-		Account.displayAccount(account1);
-		Account.displayAccount(account2);
+		System.out.printf("%s balance: $ %.2f %n",account1.getName(), account1.getBalance() );
+		System.out.printf("%s balance: $ %.2f %n%n",account2.getName(), account2.getBalance() );
 	}
 	
 }
