@@ -15,7 +15,7 @@ public class DrawPanelTest {
 		application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		application.add(panel); // adiciona o painel ao frame
-		application.setSize(400,400); // configura o tamanho do frame
+		application.setSize(300,300); // configura o tamanho do frame
 		application.setVisible(true); // se torna visivel
 		
 	}
