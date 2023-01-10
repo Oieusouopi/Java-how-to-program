@@ -21,7 +21,7 @@ public class MainComissao {
 			System.out.print("\n1 - Sim\n0 - Não");
 			resposta = input.nextInt();
 		}
-		
+		input.close();
 		Comissao comissao = new Comissao(salarioConstante);
 		comissao.setVendasBrutas(valorBruto);
 		comissao.calcularComissao();
